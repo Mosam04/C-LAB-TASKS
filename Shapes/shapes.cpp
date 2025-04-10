@@ -43,7 +43,7 @@ double::shapes::Triangle::getAreaTriangle() const{
 shapes::Circle::Circle(){ //default constructor
     Radius;
 }
-shapes::Circle::Circle(){//overloaded constructor
+shapes::Circle::Circle(double radius){//overloaded constructor
     Radius=0;
 }
 shapes::Circle::~Circle(){
